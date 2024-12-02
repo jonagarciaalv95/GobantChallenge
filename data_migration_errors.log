@@ -1,0 +1,57 @@
+2024-12-01 08:44:09,286 - Error al cargar datos en departments: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2024-12-01 08:44:09,399 - Error al cargar datos en hired_employees: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2024-12-01 08:44:09,465 - Error al cargar datos en jobs: 'utf-8' codec can't decode byte 0xab in position 96: invalid start byte
+2024-12-01 08:45:08,883 - Error al cargar datos en departments: (psycopg2.OperationalError) could not translate host name "postgres-db" to address: Host desconocido. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-01 08:45:11,601 - Error al cargar datos en hired_employees: (psycopg2.OperationalError) could not translate host name "postgres-db" to address: Host desconocido. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-01 08:45:14,297 - Error al cargar datos en jobs: (psycopg2.OperationalError) could not translate host name "postgres-db" to address: Host desconocido. 
+
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2024-12-01 08:58:08,696 - Error al insertar datos en la tabla departments: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 08:58:08,696 - Error al cargar datos en departments: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 08:58:11,472 - Error al insertar datos en la tabla hired_employees: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 08:58:11,472 - Error al cargar datos en hired_employees: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 08:58:14,196 - Error al insertar datos en la tabla jobs: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 08:58:14,196 - Error al cargar datos en jobs: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:54:01,646 - Error al insertar datos en la tabla departments: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:54:01,646 - Error al cargar datos en departments: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:54:04,420 - Error al insertar datos en la tabla hired_employees: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:54:04,420 - Error al cargar datos en hired_employees: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:54:07,132 - Error al insertar datos en la tabla jobs: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:54:07,132 - Error al cargar datos en jobs: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:55:28,039 - Error al insertar datos en la tabla departments: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:55:28,039 - Error al cargar datos en departments: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:55:30,735 - Error al insertar datos en la tabla hired_employees: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:55:30,735 - Error al cargar datos en hired_employees: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:55:33,415 - Error al insertar datos en la tabla jobs: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:55:33,415 - Error al cargar datos en jobs: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:57:02,572 - Error al insertar datos en la tabla departments: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:57:02,572 - Error al cargar datos en departments: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:57:05,268 - Error al insertar datos en la tabla hired_employees: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:57:05,268 - Error al cargar datos en hired_employees: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:57:07,950 - Error al insertar datos en la tabla jobs: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:57:07,950 - Error al cargar datos en jobs: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 18:59:58,908 - Error al insertar datos en la tabla departments: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 18:59:58,908 - Error al cargar datos en departments: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 19:00:01,604 - Error al insertar datos en la tabla hired_employees: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 19:00:01,604 - Error al cargar datos en hired_employees: cannot access local variable 'conn' where it is not associated with a value
+2024-12-01 19:00:04,300 - Error al insertar datos en la tabla jobs: could not translate host name "postgres-db" to address: Host desconocido. 
+
+2024-12-01 19:00:04,300 - Error al cargar datos en jobs: cannot access local variable 'conn' where it is not associated with a value

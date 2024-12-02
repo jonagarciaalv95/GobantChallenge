@@ -1,0 +1,30 @@
+version: '3.9'
+
+services:
+  postgres-db:
+    build:
+      context: ./db
+    container_name: postgres-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: EliYen2024*
+      POSTGRES_DB: db-challenge
+    ports:
+      - "5433:5432"
+    networks:
+      - my_network
+
+  python-app:
+    build:
+      context: ./app
+    container_name: python-app
+    depends_on:
+      - postgres-db
+    environment:
+      PYTHONUNBUFFERED: 1
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
