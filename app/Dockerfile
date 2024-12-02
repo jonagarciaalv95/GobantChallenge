@@ -23,5 +23,4 @@ WORKDIR /app
 EXPOSE 5000
 
 # Comando para ejecutar los dos scripts de manera secuencial
-CMD python main.py 
-#python migration_data.py && python main.py
+CMD python migration_data.py && python main.py
